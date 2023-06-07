@@ -1,0 +1,476 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- MENU ENCABEZADO -->
+    <div class="contenedor-header">
+        <header>
+            <div class="logo">
+                <a href="#">Rubén Montes</a>
+            </div>
+            <nav id="nav">
+                <ul>
+                    <li><a href="#inicio" onclick="seleccionar()">INICIO</a></li>
+                    <li><a href="#sobremi" onclick="seleccionar()">SOBRE MI</a></li>
+                    <li><a href="#skills" onclick="seleccionar()">SKILLS</a></li>
+                    <li><a href="#curriculum" onclick="seleccionar()">CURRICULUM</a></li>
+                    <li><a href="#portfolio" onclick="seleccionar()">PORTFOLIO</a></li>
+                    <li><a href="#contacto" onclick="seleccionar()">CONTACTO</a></li>
+                </ul>
+            </nav>
+            <div class="nav-responsive" onclick="mostrarOcultarMenu()">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+        </header>
+    </div>
+    <br>
+    <br>
+    <br>
+
+
+
+
+    <!-- SECCION INICIO -->
+    <section id="inicio" class="inicio">
+        <div class="contenido-banner">
+            <div class="contenedor-img">
+                <img src="img/foto2.png "   alt="">
+            </div>
+            <h1>RUBÉN MONTES</h1>
+            <h2>Full Stack Developer - Desarrollador</h2>
+            <div class="redes">
+                <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                <a href="#"><i class="fa-brands fa-skype"></i></a>
+                <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+                <a href="#"><i class="fa-solid fa-rss"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION SOBRE MI -->
+    <section id="sobremi" class="sobremi">
+        <div class="contenido-seccion">
+            <h2>Sobre Mí</h2>
+            <p>Hola, soy<span> Rubén Montes,</span></span> Desarrollador Web Full Stack Javascript, con fran interés en progresar. Con capacidad para aprender y aplicar mis conocimientosal ámbito profesional.</p>
+
+            <div class="fila">
+                <!-- datos personales -->
+                <div class="col">
+                    <h3>Datos Personales</h3>
+                    <ul>
+                        <li>
+                            <strong>Cumpleaños</strong>
+                            23-08-1982
+                        </li>
+                        <li>
+                            <strong>Teléfono</strong>
+                            3407466001
+                        </li>
+                        <li>
+                            <strong>Email</strong>
+                            rubenmontes58@gmail.com
+                        </li>
+                        
+                        <li>
+                            <strong>Dirección</strong>
+                            Malvinas Argentinas 1063, Villa Ramallo, Buenos Aires, Argentina
+                        </li>
+                        <li>
+                            <strong>Cargo</strong>
+                            <span>FREELANCE</span>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- intereses -->
+                <div class="col">
+                    <h3>Intereses</h3>
+                    <div class="contenedor-intereses">
+                        <div class="interes">
+                            <i class="fa-solid fa-gamepad"></i>
+                            <span>JUEGOS</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-headphones"></i>
+                            <span>MUSICA</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-plane"></i>
+                            <span>VIAJAR</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-brands fa-apple"></i>
+                            <span>MAC OS</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-person-hiking"></i>
+                            <span>DEPORTE</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-book"></i>
+                            <span>LIBROS</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-car"></i>
+                            <span>AUTOS</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-camera"></i>
+                            <span>FOTOS</span>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div> 
+            <button> 
+                
+            <a class="curriculum"href="img/CV-RUBENMONTES.pdf" download="">Descargar CV</a>
+            
+            
+            </button>
+               
+                 
+                   
+              
+             
+                
+            
+        </div>
+    </section>
+
+    <!-- SECCION SKILLS -->
+    <section class="skills" id="skills">
+        <div class="contenido-seccion">
+            <h2>Skills</h2>
+            <div class="fila">
+                <!-- Technical Skill -->
+                <div class="col">
+                    <h3>Technical Skills</h3>
+                    <div class="skill">
+                        <span>Javascript</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>75%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>HTML & CSS</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>89%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>React Js</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>95%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Angular Js </span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>81%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Ionic Framework</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>55%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Professional Skills -->
+                <div class="col">
+                    <h3>Professional Skills</h3>
+                    <div class="skill">
+                        <span>Comunicación</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>80%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Trabajo en Equipo</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>70%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Creatividad</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>99%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Dedicación</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>65%</span>
+                            </div>
+                        </div>
+                    </div>
+                   
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION CURRICULUM -->
+    <section id="curriculum" class="curriculum">
+        <div class="contenido-seccion">
+            <h2>Experiencia</h2>
+            <div class="fila">
+                <div class="col izquierda">
+                    <h3>Educación</h3>
+                    
+                    <div class="item izq">
+                        <h4>Arte y Multimedia</h4>
+                        <span class="casa">Instituto Seundario Ramallo</span>
+                        <span class="fecha">1996 - 1999</span>
+                        <p>Escuela de Educación Privada Ramallo, DIEGEP Nº 1847; Ramallo.</p>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                    <div class="item izq">
+                        <h4>Bachiller en Economía y Gestión de las Organizaciones</h4>
+                        <span class="casa">Universidad de Oxford</span>
+                        <span class="fecha">1991 - 2001</span>
+                        <p>Escuela de Educación Media Nº 2 “Guillermo Leloir”; Ramallo
+                        </p>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                    <div class="item izq">
+                        <h4>Escuela de Arte San Nicolás </h4>
+                        <span class="casa">Universidad de Oxford</span>
+                        <span class="fecha">2009 - 2010</span>
+                        <p>(Profesorado de Música)</p>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+
+                    <div class="item izq">
+                        <h4>Universidad Tecnológica Nacional (UTN) Buenos Aires</h4>
+                        <span class="casa">Diplomatura en programacion Full Stack Desarrollo Web </span>
+                        <span class="fecha">2021 - 2022</span>
+                        <p>La diplomatura está compuesta por dos cursos que se realizan de forma nivelada y según el grado de complejidad en los contenidos, en
+                            primer lugar el curso de Programador Web Inicial Fronend Developer, y en el segundo lugar el cuso de programador web Avanzado Full Stack
+                            Developer,asi completando un programa general e integrador.
+                        </p>
+                        <p>Actualmnete me encuentro realizando otra diplomatura en la universidad Tres de Febrero como Desarrollador Fronend y un curso intensivo en lenjuaje de programación Javascript en la academia Coder House.</p>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                 
+                </div>
+
+                <div class="col derecha">
+                    <h3>Laboral</h3>
+                    <div class="item der">
+                        <h4>Vendedor</h4>
+                        <span class="casa">Bringeri Hogar</span>
+                        <span class="fecha">2018  - actualmente</span>
+                        <p>Asesoramiento y venta al público de artículos del hogar. Orientación de la venta hacia los productos más rentables y exclusivos definidos por la empresa, sin olvidar nunca las necesidades del cliente.
+                            </p>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+                    <div class="item der">
+                        <h4>Vendedor</h4>
+                        <span class="casa">Minicuotas Ribeiro</span>
+                        <span class="fecha">2015 -1019</span>
+                        <p>Realización de las cotizaciones de productos para los clientes. Asesoramiento y venta al público de todo tipo de productos.
+                            Orientación de la venta hacia los productos más rentables y exclusivos definidos por la empresa, sin olvidar nunca las necesidades del cliente. Supervisión del orden, la limpieza y la seguridad en el establecimiento. Gestión de almacén, reposición de productos y supervisión de stocks.</p>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+                    <div class="item der">
+                        <h4>Encargado de Sucursal</h4>
+                        <span class="casa">Mucoop</span>
+                        <span class="fecha">2012 - 2016</span>
+                        <p>Supervisión del rendimiento de los empleados para reconocer fortalezas y detectar áreas de mejora.
+                            Evaluación de las condiciones del mercado para identificar las oportunidades comerciales.
+                            Organización de tareas y delegación de responsabilidades según la carga de trabajo y el personal disponible.
+                        </p>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+                    <div class="item der">
+                        <h4>Técnico</h4>
+                        <span class="casa">SISCARD</span>
+                        <span class="fecha">2012 - 2014</span>
+                        <p> Técnico de mantenimiento y reparación Reparación de terminales para tarjetas de crédito. Representante oficial de la firma en la zona.
+                        </p>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+                    <div class="item der">
+                        <h4>Reparación y mantenimiento de Pc </h4>
+                        <span class="casa">MICRO INFORMATICA</span>
+                        <span class="fecha">2010 - 2012</span>
+                        <p> Soporte técnico,instalación e redes informaticas, instalación de Sistemas de Monitoreo y Videovigilancia.
+                        </p>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+
+                    <div class="item der">
+                        <h4>Reparación y mantenimiento de Pc </h4>
+                        <span class="casa">BINGO RAMALLO</span>
+                        <span class="fecha">2006 - 2007</span>
+                        <p> Técnico de mantenimiento y reparación Reparación y mantenimiento de máquinas.
+                        </p>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+
+                    <div class="item der">
+                        <h4>Técnico </h4>
+                        <span class="casa">CIBER URBANO RAMALLO</span>
+                        <span class="fecha">2003 - 2006</span>
+                        <p> Reparación y mantenimiento de PC Acondicionamiento y mantenimiento del hardware Reparación y mantenimiento de PC.
+                            Diseño y programación Web
+                        </p>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+                    <div class="item der">
+                        <h4>Instructor en informatica </h4>
+                        <span class="casa">MASTER WARE RAMALLO</span>
+                        <span class="fecha">2000 - 2001</span>
+                        <p> Dictado de clases de informática Venta y Reparación de PC Dictado de clases de informática
+                        </p>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION PORTFOLIO -->
+    <section id="portfolio" class="portfolio">
+        <div class="contenido-seccion">
+            <h2>PORTFOLIO</h2>
+            <div class="galeria">
+                <div class="proyecto">
+                    
+
+                    <li>
+                        <a href="https://tercer-entrega-coder-js.netlify.app/" target="_blank">Proyecto final de Ecomerce para CoderHouse</a>
+                    </li>
+
+                    <li>
+                        <a href="https://game-store-ramallo.netlify.app/" target="_blank">Web de Venta de Juegos</a>
+                    </li>
+                    <li>
+                        <a href="https://scaloneta-ramallo.netlify.app/"target="_blank">Web de La Scaloneta</a>
+                    </li>
+                    <li>
+                        <a href="https://consumiendo-api-peliculas.netlify.app/"target="_blank">Api de peliculas en vue </a>
+                    </li>
+                    <li>
+                        <a href="https://carrito-en-vue.netlify.app/"target="_blank">Carrito de Ecomerce en Vue </a>
+                    </li>
+                    <li>
+                        <a href="https://restaurant-cocokiki.netlify.app/"target="_blank">Restaurante </a>
+                    </li>
+                    <li>
+                        <a href="https://presupuestosytareas.netlify.app/"target="_blank">App de Presupuestos y Tareas </a>
+                    </li>
+                  
+                    
+                   
+                  
+                        
+                     
+                   
+                       
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION CONTACTO -->
+    <section id="contacto" class="contacto">
+        <div class="contenido-seccion">
+            <h2>CONTACTO</h2>
+            <div class="fila">
+      
+                <!-- Mapa -->
+                <div class="col">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3327.3344472208173!2d-60.06044692580823!3d-33.49267467337279!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95b9e36dd2e4f287%3A0x959777bb0fa9fc5e!2sMalvinas%20Argentinas%201063%2C%20Villa%20Ramallo%2C%20Provincia%20de%20Buenos%20Aires!5e0!3m2!1ses-419!2sar!4v1686174001117!5m2!1ses-419!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    <div class="info">
+                        <ul>
+                            <li>
+                                <i class="fa-solid fa-location-dot"></i>
+                                Villa Ramallo, Buenos Aires
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-mobile-screen"></i>
+                                Llamame: 3407 - 466001 
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-envelope"></i>
+                                Email: rubenmontes58@gmail.com
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- footer -->
+    <footer>
+        <a href="#inicio" class="arriba">
+            <i class="fa-solid fa-angles-up"></i>
+        </a>
+        <div class="redes">
+            <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+            <a href="#"><i class="fa-brands fa-twitter"></i></a>
+            <a href="#"><i class="fa-brands fa-skype"></i></a>
+            <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+            <a href="#"><i class="fa-solid fa-rss"></i></a>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
